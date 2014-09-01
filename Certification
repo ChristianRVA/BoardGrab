@@ -1,1 +1,4 @@
 //Tony - Put all content for certification in this file. Try to keep it formatted as how you want to see it on the site. 
+
+//If it is a headline put wrap your text in <h1>Example Headline</h1>
+//anything under the headline wrap it in <p>this is example headline content</p>
