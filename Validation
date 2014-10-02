@@ -1,16 +1,15 @@
 ASP.NET Validation Types To Use: 
 
-
  <asp:RequiredFieldValidator runat="server" ControlToValidate="txtPassword"
       ErrorMessage="Oops! Please enter a password." Display="Dynamic" CssClass="validation">
 </asp:RequiredFieldValidator>
-
 
 
 <asp:RegularExpressionValidator runat="server" ControlToValidate="#"
       ValidationGroup="#" ValidationExpression="^(\d{5})|(\d{5}-\d{4}$" ErrorMessage="Oops!">
 </asp:RegularExpressionValidator>
 
+---------------------------------------------------------------------------------------------------
 
 Regular Expressions Codes:
 
@@ -31,6 +30,10 @@ Phone Number:
 
 State Codes:
 ^(?-i:A[LKSZRAEP]|C[AOT]|D[EC]|F[LM]|G[AU]|HI|I[ADLN]|K[SY]|LA|M[ADEHINOPST]|N[CDEHJMVY]|O[HKR]|P[ARW]|RI|S[CD]|T[NX]|UT|V[AIT]|W[AIVY])$
+
+
+Credit Card:
+^((4\d{3})|(5[1-5]\d{2})|(6011))-?\d{4}-?\d{4}-?\d{4}|3[4,7]\d{13}$
 
 
 
