@@ -1,3 +1,19 @@
+Mike - 
+
+For each .ASPX page in the BoardGrab repo, I would like you to go through and add validation to each user input. If you look throughout
+the pages now you will see <asp:RequiredFieldValidator /> . This is one type of validation on the front end that I use. 
+What we need now are regular expressions, range validators, etc. I have put some examples below, and sample validators
+I have used in the past. Please go through each text box and add the necessary validations. All of the textbox's have ID's
+that make them pretty self-explainatory of what you are needing to validate. If you have any questions just call me. 
+
+Also if you get stuck on the regular expressions there are plenty of resources online. 
+
+Lastly, please use the Preview branch when you make your changes. Do not commit, or edit the master. 
+
+Thanks! 
+
+
+
 ASP.NET Validation Types To Use: 
 
  <asp:RequiredFieldValidator runat="server" ControlToValidate="txtPassword"
